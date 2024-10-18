@@ -1,0 +1,54 @@
+body{
+    color:rgb(99, 119, 138);
+    background:rgb(27, 37, 48);
+margin: 0px;
+font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom:150px;
+
+
+}
+
+header{
+    border-bottom: solid 2px #263336;
+    padding:20px;
+    font-size:32px;
+
+}
+.chamada{
+    background: #35495f;
+    padding:25px;
+    display:flex;
+    justify-content:center;
+}
+.chamada-texto{
+    margin-right:5%;
+}
+h1{
+    font-size:40px;
+}
+p{font-size:20px;}
+img{
+    height:300px
+}
+.categorias-videos{
+    display:flex;
+    overflow-y:auto; 
+    gap:50px;
+    
+}
+.categoria{
+    padding-left:40px;
+    padding-right:20px;
+    
+
+}
+.categorias-videos img {
+    opacity:0,1;
+
+}
+.categorias-videos img:hover {
+opacity:1.0;
+border:1px solid rgb(99, 119, 138)
+}
